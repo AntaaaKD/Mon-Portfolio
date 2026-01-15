@@ -1,0 +1,24 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';  // Ajoute cet import
+import About from './components/About';  
+import Skills from './components/Skills';
+import Achievements from './components/Achievements';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-custom-blue text-white">
+      <Navbar />
+      <main>
+        <Home />  {/* Remplace le placeholder */}
+        <About />
+        <Skills />
+        <Achievements />
+        <section id="projects" className="py-16">Placeholder Projets</section>
+        <section id="contact" className="py-16">Placeholder Contact</section>
+      </main>
+    </div>
+  );
+}
+
+export default App;
