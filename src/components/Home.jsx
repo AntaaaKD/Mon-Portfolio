@@ -42,7 +42,7 @@ const Home = () => {
         <a href="#projects" className="bg-[#84258f] text-lg px-6 py-3 rounded-full hover:bg-[#7d1e68] transition">
             View my Projects
         </a>
-        <a href="/CV_AntaDIOP_Fr" download className="px-6 py-3 rounded-full border border-[#84258f] text-lg hover:bg-[#84258f] hover:text-white transition">
+        <a href="/cv.pdf" download className="px-6 py-3 rounded-full border border-[#84258f] text-lg hover:bg-[#84258f] hover:text-white transition">
             Download CV
         </a>
       </div>
